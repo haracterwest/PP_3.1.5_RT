@@ -2,14 +2,10 @@ package com.vishnevskiy315;
 
 import com.vishnevskiy315.model.User;
 import com.vishnevskiy315.service.UserServiceImpl;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class Application {
-
-	UserServiceImpl userService;
-
 
 	public static void main(String[] args) {
 
